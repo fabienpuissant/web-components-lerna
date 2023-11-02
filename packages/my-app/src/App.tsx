@@ -1,18 +1,14 @@
 import "./App.css";
-import {
-  FabButton,
-  defineCustomElements,
-} from "fab-web-components-react";
-
-defineCustomElements();
+import { FabButton } from "fab-web-components-react";
 
 function App() {
-
   const onClick = () => {
-    console.log("ok")
-  }
+    console.log("ok");
+  };
 
-  return <FabButton label="button" primary rounded="medium" onClick={onClick}/>;
+  return (
+    <FabButton label="button" primary rounded="medium" onClick={onClick} />
+  );
 }
 
 export default App;

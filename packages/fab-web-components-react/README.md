@@ -1,11 +1,5 @@
-# `react-components`
+# `fab-web-components-react`
 
-> TODO: description
+Wrapper of stencil component library :
 
-## Usage
-
-```
-const reactComponents = require('react-components');
-
-// TODO: DEMONSTRATE API
-```
+https://www.npmjs.com/package/fab-web-components

@@ -1,6 +1,6 @@
 {
   "name": "fab-web-components-react",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Fabien Puissant <fabienpuissant@live.fr>",
   "homepage": "",
@@ -25,6 +25,6 @@
     "access": "public"
   },
   "dependencies": {
-    "fab-web-components": "*"
+    "fab-web-components": "^0.0.1"
   }
 }

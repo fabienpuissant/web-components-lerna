@@ -1,6 +1,6 @@
 {
   "name": "fab-web-components-react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Fab Web Components react wrapper",
   "author": "Fabien Puissant <fabienpuissant@live.fr>",
   "homepage": "",
@@ -26,5 +26,5 @@
   "dependencies": {
     "fab-web-components": "^0.0.2"
   },
-  "gitHead": "9fcd0c425e9d8d9618d1ab88942f1b0570941298"
+  "gitHead": "3d9788e073e54d89f6a683246e54d44b2e09348d"
 }

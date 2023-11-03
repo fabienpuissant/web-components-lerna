@@ -1,6 +1,6 @@
 {
   "name": "fab-web-components",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Fab Web Components",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -56,5 +56,5 @@
     "storybook": "^7.5.0"
   },
   "license": "MIT",
-  "gitHead": "9fcd0c425e9d8d9618d1ab88942f1b0570941298"
+  "gitHead": "3d9788e073e54d89f6a683246e54d44b2e09348d"
 }

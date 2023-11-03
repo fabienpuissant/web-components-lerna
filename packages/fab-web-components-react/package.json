@@ -17,7 +17,6 @@
     "dist"
   ],
   "scripts": {
-    "test": "node ./__tests__/fab-web-components.test.js",
     "build": "npm run tsc",
     "tsc": "tsc -p . --outDir ./dist"
   },
@@ -27,5 +26,5 @@
   "dependencies": {
     "fab-web-components": "^0.0.2"
   },
-  "gitHead": "6620ac7e481032418d686008b1ff3d007c8d7c4f"
+  "gitHead": "4da239fd1b5463cc1372bd49f478b00c4706e7f0"
 }

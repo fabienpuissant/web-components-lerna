@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "fab-web-components-react": "^0.0.3",
+    "fab-web-components-react": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

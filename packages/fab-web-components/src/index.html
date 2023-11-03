@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <style type="text/css" media="screen, print">
+      @font-face {
+        font-family: 'RalewayBlack';
+        src: url('/assets/fonts/Raleway-Black.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'RalewayRegular';
+        src: url('/assets/fonts/Raleway-Regular.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'RalewaySemiBold';
+        src: url('/assets/fonts/Raleway-SemiBold.ttf') format('truetype');
+      }
+    </style>
+
+    <script type="module" src="/build/stencil-components.esm.js"></script>
+    <script nomodule src="/build/stencil-components.js"></script>
+  </head>
+  <body>
+    <fab-button label="button" rounded="l" id="button" width="10rem" font-size="20px">Button</fab-button>
+  </body>
+
+  <script>
+    const button = document.querySelector('#button');
+    button.addEventListener('click', () => console.log('okok'));
+  </script>
+</html>

@@ -1,0 +1,49 @@
+.primary {
+  background-color: $primary500;
+  color: white;
+  border-width: 0;
+
+  &:hover {
+    background-color: $primary600;
+    transition: 0.5s;
+  }
+}
+
+.secondary {
+  border-width: 1px;
+  border-color: $primary500;
+  color: $primary500;
+  background-color: white;
+  border-style: solid;
+
+  &:hover {
+    border-color: $primary600;
+    color: $primary600;
+    transition: 0.5s;
+  }
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 30px;
+  font-family: 'RalewaySemiBold';
+}
+
+.rounded-small {
+  border-radius: 0.3em;
+}
+
+.rounded-medium {
+  border-radius: 0.5em;
+}
+
+.rounded-large {
+  border-radius: 1em;
+}
+
+.disabled {
+  background-color: $grey300;
+  &:hover {
+    background-color: $grey300;
+  }
+}

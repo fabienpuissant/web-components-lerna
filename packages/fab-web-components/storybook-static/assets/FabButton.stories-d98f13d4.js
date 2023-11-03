@@ -1,0 +1,8 @@
+import"./index-c013ead5.js";import{g as d}from"./_commonjsHelpers-725317a4.js";var l={exports:{}},b="SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED",f=b,T=f;function u(){}function m(){}m.resetWarningCache=u;var g=function(){function e(x,_,P,v,O,y){if(y!==T){var p=new Error("Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types");throw p.name="Invariant Violation",p}}e.isRequired=e;function r(){return e}var t={array:e,bigint:e,bool:e,func:e,number:e,object:e,string:e,symbol:e,any:e,arrayOf:r,element:e,elementType:e,instanceOf:r,node:e,objectOf:r,oneOf:r,oneOfType:r,shape:r,exact:r,checkPropTypes:m,resetWarningCache:u};return t.PropTypes=t,t};l.exports=g();var h=l.exports;const o=d(h),a=(e,r,t)=>`<fab-button label="${e}" primary=${r} rounded=${t}></fab-button>`;a.propTypes={label:o.string.isRequired,primary:o.bool,rounded:o.oneOf(["xs","s","m","l","xl"]),onClick:o.func};a.defaultProps={label:"Button",primary:!0,rounded:"l",onClick:void 0};const S={title:"Components/Button",tags:["autodocs"],render:({label:e,primary:r,rounded:t})=>a(e,r,t),argTypes:{label:{control:"text"},primary:{control:"boolean"},rounded:{control:{type:"select"},options:["xs","s","m","l","xl"]},onClick:{action:"onClick"}}},n={args:{label:"Button",primary:!0,rounded:"l"}};var s,c,i;n.parameters={...n.parameters,docs:{...(s=n.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {
+    label: 'Button',
+    primary: true,
+    rounded: 'l'
+  }
+}`,...(i=(c=n.parameters)==null?void 0:c.docs)==null?void 0:i.source}}};const B=["Button"];export{n as Button,B as __namedExportsOrder,S as default};
+//# sourceMappingURL=FabButton.stories-d98f13d4.js.map

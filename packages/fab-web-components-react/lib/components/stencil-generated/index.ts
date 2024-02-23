@@ -5,6 +5,7 @@ import { createReactComponent } from './react-component-lib';
 
 import type { JSX } from 'fab-web-components';
 
-export { defineCustomElements } from "fab-web-components/loader";
+import { defineCustomElements } from 'fab-web-components/loader';
 
+defineCustomElements();
 export const FabButton = /*@__PURE__*/createReactComponent<JSX.FabButton, HTMLFabButtonElement>('fab-button');

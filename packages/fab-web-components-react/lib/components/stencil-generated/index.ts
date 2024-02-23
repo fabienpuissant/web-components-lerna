@@ -9,3 +9,4 @@ import { defineCustomElements } from 'fab-web-components/loader';
 
 defineCustomElements();
 export const FabButton = /*@__PURE__*/createReactComponent<JSX.FabButton, HTMLFabButtonElement>('fab-button');
+export const FabCheckbox = /*@__PURE__*/createReactComponent<JSX.FabCheckbox, HTMLFabCheckboxElement>('fab-checkbox');

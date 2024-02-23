@@ -80,6 +80,11 @@ export class FabButton {
       style['font-size'] = this.fontSize;
     }
     this.style = style;
+
+    if(this.disabled) {
+      this.element.setAttribute("disabled", `${this.disabled}`);
+    }
+
   }
 
   render() {

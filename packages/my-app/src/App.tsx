@@ -7,7 +7,7 @@ function App() {
   };
 
   return (
-    <FabButton label="button" primary rounded="medium" onClick={onClick} />
+    <FabButton label="button" primary rounded="medium" onClick={onClick} disabled/>
   );
 }
 

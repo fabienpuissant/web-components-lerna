@@ -1,6 +1,6 @@
 {
   "name": "fab-web-components",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Fab Web Components",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
